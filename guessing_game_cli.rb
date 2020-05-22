@@ -10,7 +10,7 @@ user_input = gets.chomp
  if (user_input).to_i == rand_number
   puts "You guessed the correct number!"
 
-else if user_input == 'exit'
+elsif user_input == 'exit'
   puts "Goodbye!"
   
 else 
