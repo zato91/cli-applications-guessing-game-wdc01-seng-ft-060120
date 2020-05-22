@@ -15,7 +15,7 @@ else if user_input == "exit"
   puts "Goodbye!"
   
 else 
-  puts "Sorry! The computer guessed <number> "
+  puts "Sorry! The computer guessed #{rand_number} "
   
 end
 
