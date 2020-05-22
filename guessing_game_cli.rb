@@ -1,6 +1,4 @@
 # Code your solution here!
-
-
 def run_guessing_game
   
 rand_number = rand(1..6)  
@@ -15,7 +13,7 @@ else if user_input == "exit"
   puts "Goodbye!"
   
 else 
-  puts "Sorry! The computer guessed #{rand_number} "
+  puts "Sorry! The computer guessed #{rand_number}"
   
 end
 
