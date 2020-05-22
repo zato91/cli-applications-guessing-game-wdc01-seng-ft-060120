@@ -6,7 +6,7 @@ rand_number = rand(1..6)
 puts "guess a number betwen 1 to 6 "
 user_input = gets.chomp
 
-if (user_input) == rand_number
+if (user_input).to_i == rand_number
   puts "You guessed the correct number!"
 
 else if user_input == "exit"
