@@ -2,7 +2,7 @@
 def run_guessing_game
   
 puts "Guess a number between 1 and 6"  
-rand_number = (rand(6)+1).to_s 
+rand_number = (rand(6)+1)
 
 
 input = gets.chomp
