@@ -13,8 +13,8 @@ user_input = gets.chomp
 #else if user_input == "exit"
  # puts "Goodbye!"
   
-#else 
-#  puts "Sorry! The computer guessed #{rand_number}"
+else 
+  puts "Sorry! The computer guessed #{rand_number}"
   
 end
 
