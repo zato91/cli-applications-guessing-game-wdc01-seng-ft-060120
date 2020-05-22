@@ -1,16 +1,17 @@
 # Code your solution here!
 def run_guessing_game
+  
 puts "Guess a number between 1 and 6"  
 rand_number = (rand(6)+1).to_s 
 
 
-user_input = gets.chomp
+input = gets.chomp
 
 
- if user_input == rand_number
+ if input == rand_number
   puts "You guessed the correct number!"
 
-elsif user_input == 'exit'
+elsif input == 'exit'
   puts "Goodbye!"
   
 else 
